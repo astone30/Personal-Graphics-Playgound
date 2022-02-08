@@ -1,0 +1,57 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_f2f58/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f2f58.dir\build.make CMakeFiles/cmTC_f2f58.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2f58.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\mingw32-gcc.exe    -o CMakeFiles\cmTC_f2f58.dir\CheckIncludeFile.c.obj -c C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:21: fatal error: pthread.h: No such file or directory
+ #include <pthread.h>
+                     ^
+compilation terminated.
+CMakeFiles\cmTC_f2f58.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_f2f58.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_f2f58.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f2f58/fast' failed
+mingw32-make.exe: *** [cmTC_f2f58/fast] Error 2
+
+
+
+Determining if the include file dinput.h exists failed with the following output:
+Change Dir: C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_1a7b6/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1a7b6.dir\build.make CMakeFiles/cmTC_1a7b6.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a7b6.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\mingw32-gcc.exe    -o CMakeFiles\cmTC_1a7b6.dir\CheckIncludeFile.c.obj -c C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: dinput.h: No such file or directory
+ #include <dinput.h>
+                    ^
+compilation terminated.
+CMakeFiles\cmTC_1a7b6.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_1a7b6.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_1a7b6.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1a7b6/fast' failed
+mingw32-make.exe: *** [cmTC_1a7b6/fast] Error 2
+
+
+
+Determining if the include file xinput.h exists failed with the following output:
+Change Dir: C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_13a94/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_13a94.dir\build.make CMakeFiles/cmTC_13a94.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13a94.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\mingw32-gcc.exe    -o CMakeFiles\cmTC_13a94.dir\CheckIncludeFile.c.obj -c C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: xinput.h: No such file or directory
+ #include <xinput.h>
+                    ^
+compilation terminated.
+CMakeFiles\cmTC_13a94.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_13a94.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_13a94.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_13a94/fast' failed
+mingw32-make.exe: *** [cmTC_13a94/fast] Error 2
+
+
+
