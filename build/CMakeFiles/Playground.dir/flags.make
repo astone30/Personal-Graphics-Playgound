@@ -8,3 +8,9 @@ CXX_INCLUDES = @CMakeFiles/Playground.dir/includes_CXX.rsp
 
 CXX_FLAGS = -g
 
+# PCH options: CMakeFiles/Playground.dir/cmake_pch.hxx.gch_OPTIONS = -Winvalid-pch;-x;c++-header;-include;C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/Playground.dir/src/core.cpp.obj_OPTIONS = -Winvalid-pch;-include;C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/Playground.dir/src/renderable.cpp.obj_OPTIONS = -Winvalid-pch;-include;C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx
+

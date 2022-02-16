@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Playground.dir/cmake_pch.hxx.gch"
+  "CMakeFiles/Playground.dir/cmake_pch.hxx.gch.d"
   "CMakeFiles/Playground.dir/src/core.cpp.obj"
   "CMakeFiles/Playground.dir/src/core.cpp.obj.d"
+  "CMakeFiles/Playground.dir/src/renderable.cpp.obj"
+  "CMakeFiles/Playground.dir/src/renderable.cpp.obj.d"
   "Playground.exe"
   "Playground.exe.manifest"
   "Playground.pdb"

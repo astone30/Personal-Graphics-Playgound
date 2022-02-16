@@ -225,6 +225,21 @@ glad/fast:
 	$(MAKE) $(MAKESILENT) -f submodules\glad\CMakeFiles\glad.dir\build.make submodules/glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
+# target to build an object file
+cmake_pch.hxx.gch:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Playground.dir\build.make CMakeFiles/Playground.dir/cmake_pch.hxx.gch
+.PHONY : cmake_pch.hxx.gch
+
+# target to preprocess a source file
+cmake_pch.hxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Playground.dir\build.make CMakeFiles/Playground.dir/cmake_pch.hxx.i
+.PHONY : cmake_pch.hxx.i
+
+# target to generate assembly for a file
+cmake_pch.hxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Playground.dir\build.make CMakeFiles/Playground.dir/cmake_pch.hxx.s
+.PHONY : cmake_pch.hxx.s
+
 src/core.obj: src/core.cpp.obj
 .PHONY : src/core.obj
 
@@ -249,6 +264,30 @@ src/core.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Playground.dir\build.make CMakeFiles/Playground.dir/src/core.cpp.s
 .PHONY : src/core.cpp.s
 
+src/renderable.obj: src/renderable.cpp.obj
+.PHONY : src/renderable.obj
+
+# target to build an object file
+src/renderable.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Playground.dir\build.make CMakeFiles/Playground.dir/src/renderable.cpp.obj
+.PHONY : src/renderable.cpp.obj
+
+src/renderable.i: src/renderable.cpp.i
+.PHONY : src/renderable.i
+
+# target to preprocess a source file
+src/renderable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Playground.dir\build.make CMakeFiles/Playground.dir/src/renderable.cpp.i
+.PHONY : src/renderable.cpp.i
+
+src/renderable.s: src/renderable.cpp.s
+.PHONY : src/renderable.s
+
+# target to generate assembly for a file
+src/renderable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Playground.dir\build.make CMakeFiles/Playground.dir/src/renderable.cpp.s
+.PHONY : src/renderable.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -266,9 +305,15 @@ help:
 	@echo ... Playground
 	@echo ... glad
 	@echo ... glfw
+	@echo ... cmake_pch.hxx.gch
+	@echo ... cmake_pch.hxx.i
+	@echo ... cmake_pch.hxx.s
 	@echo ... src/core.obj
 	@echo ... src/core.i
 	@echo ... src/core.s
+	@echo ... src/renderable.obj
+	@echo ... src/renderable.i
+	@echo ... src/renderable.s
 .PHONY : help
 
 

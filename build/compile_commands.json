@@ -1,8 +1,18 @@
 [
 {
   "directory": "C:/Users/astone/Documents/Personal-Graphics-Playgound/build",
-  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/Playground.dir/includes_CXX.rsp -g -o CMakeFiles\\Playground.dir\\src\\core.cpp.obj -c C:\\Users\\astone\\Documents\\Personal-Graphics-Playgound\\src\\core.cpp",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/Playground.dir/includes_CXX.rsp -g -Winvalid-pch -x c++-header -include C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx -o CMakeFiles\\Playground.dir\\cmake_pch.hxx.gch -c C:\\Users\\astone\\Documents\\Personal-Graphics-Playgound\\build\\CMakeFiles\\Playground.dir\\cmake_pch.hxx.cxx",
+  "file": "C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx.cxx"
+},
+{
+  "directory": "C:/Users/astone/Documents/Personal-Graphics-Playgound/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/Playground.dir/includes_CXX.rsp -g -Winvalid-pch -include C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx -o CMakeFiles\\Playground.dir\\src\\core.cpp.obj -c C:\\Users\\astone\\Documents\\Personal-Graphics-Playgound\\src\\core.cpp",
   "file": "C:/Users/astone/Documents/Personal-Graphics-Playgound/src/core.cpp"
+},
+{
+  "directory": "C:/Users/astone/Documents/Personal-Graphics-Playgound/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/Playground.dir/includes_CXX.rsp -g -Winvalid-pch -include C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx -o CMakeFiles\\Playground.dir\\src\\renderable.cpp.obj -c C:\\Users\\astone\\Documents\\Personal-Graphics-Playgound\\src\\renderable.cpp",
+  "file": "C:/Users/astone/Documents/Personal-Graphics-Playgound/src/renderable.cpp"
 },
 {
   "directory": "C:/Users/astone/Documents/Personal-Graphics-Playgound/build/submodules/glfw/src",

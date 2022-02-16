@@ -68,36 +68,74 @@ include CMakeFiles/Playground.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Playground.dir/flags.make
 
+CMakeFiles/Playground.dir/cmake_pch.hxx.gch: CMakeFiles/Playground.dir/flags.make
+CMakeFiles/Playground.dir/cmake_pch.hxx.gch: CMakeFiles/Playground.dir/includes_CXX.rsp
+CMakeFiles/Playground.dir/cmake_pch.hxx.gch: CMakeFiles/Playground.dir/cmake_pch.hxx.cxx
+CMakeFiles/Playground.dir/cmake_pch.hxx.gch: CMakeFiles/Playground.dir/cmake_pch.hxx
+CMakeFiles/Playground.dir/cmake_pch.hxx.gch: CMakeFiles/Playground.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Playground.dir/cmake_pch.hxx.gch"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -x c++-header -include C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx -MD -MT CMakeFiles/Playground.dir/cmake_pch.hxx.gch -MF CMakeFiles\Playground.dir\cmake_pch.hxx.gch.d -o CMakeFiles\Playground.dir\cmake_pch.hxx.gch -c C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles\Playground.dir\cmake_pch.hxx.cxx
+
+CMakeFiles/Playground.dir/cmake_pch.hxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Playground.dir/cmake_pch.hxx.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -x c++-header -include C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx -E C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles\Playground.dir\cmake_pch.hxx.cxx > CMakeFiles\Playground.dir\cmake_pch.hxx.i
+
+CMakeFiles/Playground.dir/cmake_pch.hxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Playground.dir/cmake_pch.hxx.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -x c++-header -include C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx -S C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles\Playground.dir\cmake_pch.hxx.cxx -o CMakeFiles\Playground.dir\cmake_pch.hxx.s
+
 CMakeFiles/Playground.dir/src/core.cpp.obj: CMakeFiles/Playground.dir/flags.make
 CMakeFiles/Playground.dir/src/core.cpp.obj: CMakeFiles/Playground.dir/includes_CXX.rsp
 CMakeFiles/Playground.dir/src/core.cpp.obj: ../src/core.cpp
+CMakeFiles/Playground.dir/src/core.cpp.obj: CMakeFiles/Playground.dir/cmake_pch.hxx
+CMakeFiles/Playground.dir/src/core.cpp.obj: CMakeFiles/Playground.dir/cmake_pch.hxx.gch
 CMakeFiles/Playground.dir/src/core.cpp.obj: CMakeFiles/Playground.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Playground.dir/src/core.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Playground.dir/src/core.cpp.obj -MF CMakeFiles\Playground.dir\src\core.cpp.obj.d -o CMakeFiles\Playground.dir\src\core.cpp.obj -c C:\Users\astone\Documents\Personal-Graphics-Playgound\src\core.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Playground.dir/src/core.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx -MD -MT CMakeFiles/Playground.dir/src/core.cpp.obj -MF CMakeFiles\Playground.dir\src\core.cpp.obj.d -o CMakeFiles\Playground.dir\src\core.cpp.obj -c C:\Users\astone\Documents\Personal-Graphics-Playgound\src\core.cpp
 
 CMakeFiles/Playground.dir/src/core.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Playground.dir/src/core.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\astone\Documents\Personal-Graphics-Playgound\src\core.cpp > CMakeFiles\Playground.dir\src\core.cpp.i
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx -E C:\Users\astone\Documents\Personal-Graphics-Playgound\src\core.cpp > CMakeFiles\Playground.dir\src\core.cpp.i
 
 CMakeFiles/Playground.dir/src/core.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Playground.dir/src/core.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\astone\Documents\Personal-Graphics-Playgound\src\core.cpp -o CMakeFiles\Playground.dir\src\core.cpp.s
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx -S C:\Users\astone\Documents\Personal-Graphics-Playgound\src\core.cpp -o CMakeFiles\Playground.dir\src\core.cpp.s
+
+CMakeFiles/Playground.dir/src/renderable.cpp.obj: CMakeFiles/Playground.dir/flags.make
+CMakeFiles/Playground.dir/src/renderable.cpp.obj: CMakeFiles/Playground.dir/includes_CXX.rsp
+CMakeFiles/Playground.dir/src/renderable.cpp.obj: ../src/renderable.cpp
+CMakeFiles/Playground.dir/src/renderable.cpp.obj: CMakeFiles/Playground.dir/cmake_pch.hxx
+CMakeFiles/Playground.dir/src/renderable.cpp.obj: CMakeFiles/Playground.dir/cmake_pch.hxx.gch
+CMakeFiles/Playground.dir/src/renderable.cpp.obj: CMakeFiles/Playground.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Playground.dir/src/renderable.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx -MD -MT CMakeFiles/Playground.dir/src/renderable.cpp.obj -MF CMakeFiles\Playground.dir\src\renderable.cpp.obj.d -o CMakeFiles\Playground.dir\src\renderable.cpp.obj -c C:\Users\astone\Documents\Personal-Graphics-Playgound\src\renderable.cpp
+
+CMakeFiles/Playground.dir/src/renderable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Playground.dir/src/renderable.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx -E C:\Users\astone\Documents\Personal-Graphics-Playgound\src\renderable.cpp > CMakeFiles\Playground.dir\src\renderable.cpp.i
+
+CMakeFiles/Playground.dir/src/renderable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Playground.dir/src/renderable.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include C:/Users/astone/Documents/Personal-Graphics-Playgound/build/CMakeFiles/Playground.dir/cmake_pch.hxx -S C:\Users\astone\Documents\Personal-Graphics-Playgound\src\renderable.cpp -o CMakeFiles\Playground.dir\src\renderable.cpp.s
 
 # Object files for target Playground
 Playground_OBJECTS = \
-"CMakeFiles/Playground.dir/src/core.cpp.obj"
+"CMakeFiles/Playground.dir/src/core.cpp.obj" \
+"CMakeFiles/Playground.dir/src/renderable.cpp.obj"
 
 # External object files for target Playground
 Playground_EXTERNAL_OBJECTS =
 
+Playground.exe: CMakeFiles/Playground.dir/cmake_pch.hxx.gch
 Playground.exe: CMakeFiles/Playground.dir/src/core.cpp.obj
+Playground.exe: CMakeFiles/Playground.dir/src/renderable.cpp.obj
 Playground.exe: CMakeFiles/Playground.dir/build.make
 Playground.exe: submodules/glad/libglad.a
 Playground.exe: submodules/glfw/src/libglfw3.a
 Playground.exe: CMakeFiles/Playground.dir/linklibs.rsp
 Playground.exe: CMakeFiles/Playground.dir/objects1.rsp
 Playground.exe: CMakeFiles/Playground.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Playground.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Playground.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Playground.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

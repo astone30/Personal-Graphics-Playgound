@@ -129,16 +129,16 @@ submodules/glfw/src/clean: submodules/glfw/src/CMakeFiles/update_mappings.dir/cl
 # Target rules for target CMakeFiles/Playground.dir
 
 # All Build rule for target.
-CMakeFiles/Playground.dir/all: submodules/glad/CMakeFiles/glad.dir/all
 CMakeFiles/Playground.dir/all: submodules/glfw/src/CMakeFiles/glfw.dir/all
+CMakeFiles/Playground.dir/all: submodules/glad/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Playground.dir\build.make CMakeFiles/Playground.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Playground.dir\build.make CMakeFiles/Playground.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles --progress-num=1,2 "Built target Playground"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles --progress-num=1,2,3,4 "Built target Playground"
 .PHONY : CMakeFiles/Playground.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Playground.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Playground.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles 0
 .PHONY : CMakeFiles/Playground.dir/rule
@@ -185,7 +185,7 @@ submodules/glfw/CMakeFiles/uninstall.dir/clean:
 submodules/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f submodules\glfw\src\CMakeFiles\glfw.dir\build.make submodules/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f submodules\glfw\src\CMakeFiles\glfw.dir\build.make submodules/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target glfw"
 .PHONY : submodules/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -211,7 +211,7 @@ submodules/glfw/src/CMakeFiles/glfw.dir/clean:
 submodules/glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f submodules\glfw\src\CMakeFiles\update_mappings.dir\build.make submodules/glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f submodules\glfw\src\CMakeFiles\update_mappings.dir\build.make submodules/glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles --progress-num=27 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles --progress-num=29 "Built target update_mappings"
 .PHONY : submodules/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -237,7 +237,7 @@ submodules/glfw/src/CMakeFiles/update_mappings.dir/clean:
 submodules/glad/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f submodules\glad\CMakeFiles\glad.dir\build.make submodules/glad/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f submodules\glad\CMakeFiles\glad.dir\build.make submodules/glad/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles --progress-num=3,4 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\astone\Documents\Personal-Graphics-Playgound\build\CMakeFiles --progress-num=5,6 "Built target glad"
 .PHONY : submodules/glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
